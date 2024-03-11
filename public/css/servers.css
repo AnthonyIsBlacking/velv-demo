@@ -1,0 +1,35 @@
+.servers-container {
+  color: white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+}
+
+.filters-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.filters-container label {
+  display: block;
+}
+.filters-container input, .filters-container select {
+  width: 100%;
+}
+.filters-container .storage-slider {
+  margin-top: 7px;
+}
+.filters-container .slider-values {
+  display: flex;
+  justify-content: space-between;
+}
+.filters-container .checkbox-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+.filters-container .checkbox-wrapper input {
+  width: -moz-fit-content;
+  width: fit-content;
+}

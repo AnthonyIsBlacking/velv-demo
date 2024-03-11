@@ -1,0 +1,40 @@
+.servers-container{
+    color:white;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-weight: 700;
+}
+
+.filters-container{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    label{
+        display: block;
+    }
+
+    input, select{
+        width: 100%;
+    }
+
+    .storage-slider{
+        margin-top: 7px;
+    }
+
+    .slider-values{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .checkbox-wrapper{
+        display: flex;
+        align-items: center;
+        gap: 7px;
+
+        input{
+            width: fit-content;
+        }
+    }
+}
